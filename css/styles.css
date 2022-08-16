@@ -1,0 +1,105 @@
+/*HTML Selectors*/
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    text-align: center
+}
+
+p{
+    font-size: 18px;
+}
+/*Containers*/
+
+.white-txt{
+    color: hsl(0, 0%, 100%)
+}
+
+.eth-txt{
+    color: hsl(178, 100%, 50%);
+    margin-right: 40%; /*Pushes the "3 days left text to the right*/
+}
+
+/*Card Section*/
+.card{
+    width:27%;
+    margin: 10% auto;
+    line-height: 1.5;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    /*Need to add a border radius to this element*/
+}
+
+.card-inner{
+    margin: 5%;
+}
+.card-heading{
+    padding: 5% 0 ;
+    margin: auto;
+}
+.card-img{
+    border-radius: .5em;
+}
+.card-img:hover{
+
+}
+
+.card-txt{
+    text-align: left;
+    color: hsl(215, 51%, 70%)
+}
+
+/*Avatar Section*/
+.avatar-img{
+    border: white 2px solid;
+    border-radius: 50%;
+    width: 10%;
+}
+.avatar-txt{
+   padding: 0 0 0 5%;
+   font-size: 18px;
+}
+
+/*Attribution Section*/
+.attribution { 
+    font-size: 0.68rem; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/*Media Queries*/
+/*Mobile Media Query*/
+@media all and (min-width:375px) and (max-width:763px) {
+    .card{
+        width: 80%;
+    }
+}
+
+/*Tablet Media Query*/
+@media all and (min-width: 764px) {
+    .card{
+        width:70%;
+    }
+}
+
+/*Laptop Media Query*/
+@media all and (min-width:768px){
+    .card{
+        width:60%;
+    }
+}
+
+/*Desktop*/
+@media all and (min-width:990px) {
+    .card{
+        width:50%;
+    }
+}
+
+/*Large Desktop*/
+@media all and (min-width:1200px){
+    .card{
+        width:30%;
+    }
+}
