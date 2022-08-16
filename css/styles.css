@@ -8,6 +8,10 @@ body {
 p{
     font-size: 18px;
 }
+
+a{
+    text-decoration: none;
+}
 /*Containers*/
 
 .white-txt{
@@ -17,6 +21,15 @@ p{
 .eth-txt{
     color: hsl(178, 100%, 50%);
     margin-right: 40%; /*Pushes the "3 days left text to the right*/
+}
+
+/*Active States*/
+.white-txt:hover {
+    color:hsl(178, 100%, 50%);
+}
+.card-img:hover{
+    opacity:0.3;
+    color:hsl(178, 100%, 50%);
 }
 
 /*Card Section*/
